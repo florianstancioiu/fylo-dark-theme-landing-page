@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: var(--clr-two);
+  padding-bottom: 8rem;
+}
+
+.wrapper > div {
+  padding-bottom: 8rem;
+}

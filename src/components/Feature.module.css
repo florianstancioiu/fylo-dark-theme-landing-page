@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: 0 auto 2.4rem;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--clr-eight);
+  margin-bottom: 0.8rem;
+}
+
+.description {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--clr-eight);
+}
