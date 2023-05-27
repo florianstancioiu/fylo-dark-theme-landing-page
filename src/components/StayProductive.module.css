@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 0 2.4rem 16rem;
+  background-color: var(--clr-two);
+  color: var(--clr-eight);
+}
+
+.image-wrapper {
+  margin-bottom: 4.8rem;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.description {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  margin-bottom: 1.6rem;
+}
+
+.text-btn {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: var(--clr-five);
+}
+
+.text-btn img {
+  display: inline-block;
+  margin-left: 0.7rem;
+  position: relative;
+  bottom: -0.4rem;
+}
+
+.text-btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0.1rem;
+  width: 100%;
+  background-color: var(--clr-five);
+  bottom: -0.6rem;
+}
