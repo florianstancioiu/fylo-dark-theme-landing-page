@@ -1,0 +1,49 @@
+.wrapper {
+  background-color: var(--clr-two);
+  padding: 0 2.4rem 5.2rem;
+}
+
+.logo {
+  max-width: 10.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.list-item {
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+.list-item-icon {
+  margin-right: 1.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.list-item-text {
+  color: var(--clr-eight);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.section {
+  margin-bottom: 5.6rem;
+}
+
+.footer-link {
+  color: var(--clr-eight);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  margin-bottom: 1.6rem;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
