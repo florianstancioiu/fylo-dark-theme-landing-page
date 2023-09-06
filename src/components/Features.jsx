@@ -35,14 +35,16 @@ const features = [
 const Features = () => {
   return (
     <div className={classes.wrapper}>
-      {features.map((feature) => (
-        <Feature
-          key={feature.id}
-          image={feature.image}
-          title={feature.title}
-          description={feature.description}
-        />
-      ))}
+      <div className={classes['inner-wrapper']}>
+        {features.map((feature) => (
+          <Feature
+            key={feature.id}
+            image={feature.image}
+            title={feature.title}
+            description={feature.description}
+          />
+        ))}
+      </div>
     </div>
   );
 };

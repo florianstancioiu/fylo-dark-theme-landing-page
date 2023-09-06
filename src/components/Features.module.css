@@ -6,3 +6,13 @@
 .wrapper > div {
   padding-bottom: 8rem;
 }
+
+@media screen and (min-width: 1440px) {
+  .inner-wrapper {
+    width: calc(350px + 350px + 147px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14.7rem;
+  }
+}

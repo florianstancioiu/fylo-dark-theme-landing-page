@@ -26,3 +26,14 @@
   color: var(--clr-eight);
   text-decoration: none;
 }
+
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    gap: 5.8rem;
+  }
+}
