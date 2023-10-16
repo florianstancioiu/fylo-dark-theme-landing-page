@@ -28,15 +28,17 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className={classes.wrapper}>
-      {testimonials.map((testimonial) => (
-        <Testimonial
-          key={testimonial.id}
-          description={testimonial.description}
-          avatar={testimonial.avatar}
-          name={testimonial.name}
-          title={testimonial.title}
-        />
-      ))}
+      <div className={classes['inner-wrapper']}>
+        {testimonials.map((testimonial) => (
+          <Testimonial
+            key={testimonial.id}
+            description={testimonial.description}
+            avatar={testimonial.avatar}
+            name={testimonial.name}
+            title={testimonial.title}
+          />
+        ))}
+      </div>
     </div>
   );
 };
