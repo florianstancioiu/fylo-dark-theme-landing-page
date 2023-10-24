@@ -54,10 +54,17 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .wrapper {
+    padding-bottom: 0;
+  }
+
   .inner-wrapper {
     width: 860px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -12rem;
+    z-index: 2;
+    position: relative;
   }
 
   .title {

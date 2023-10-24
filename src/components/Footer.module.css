@@ -47,3 +47,25 @@
   justify-content: center;
   gap: 1rem;
 }
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    background-color: var(--clr-ten);
+    padding-top: 17rem;
+  }
+
+  .inner-wrapper {
+    width: 1280px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
+  }
+
+  .inner-wrapper > div {
+    padding-top: 8rem;
+  }
+
+  .inner-wrapper .section:first-child {
+    padding-top: 0;
+  }
+}

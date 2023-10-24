@@ -8,6 +8,7 @@
   --clr-seven: hsl(0, 100%, 63%);
   --clr-eight: hsl(0, 0%, 100%);
   --clr-nine: hsl(217, 31%, 18%);
+  --clr-ten: #0b1524;
 }
 
 html {
