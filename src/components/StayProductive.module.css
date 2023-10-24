@@ -92,4 +92,12 @@
     display: inline-block;
     margin-top: 0.8rem;
   }
+
+  .text-btn:hover {
+    color: white;
+  }
+
+  .text-btn:hover::after {
+    background-color: white;
+  }
 }

@@ -36,4 +36,13 @@
   .menu {
     gap: 5.8rem;
   }
+
+  .menu-item {
+    font-size: 1.6rem;
+  }
+
+  .menu-item:hover {
+    font-weight: 700;
+    text-decoration-line: underline;
+  }
 }

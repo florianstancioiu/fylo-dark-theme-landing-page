@@ -68,4 +68,8 @@
   .inner-wrapper .section:first-child {
     padding-top: 0;
   }
+
+  .footer-link:hover {
+    font-weight: 700;
+  }
 }
